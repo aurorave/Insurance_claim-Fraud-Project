@@ -1,6 +1,6 @@
 # Insurance_claim-Fraud-Project
 
-# 주제 설정
+## 주제 설정
 - 해결하고자 하는 문제, 시나리오: 의료서비스 제공자의 의료보험 청구 사기 탐지
 - 문제 해결의 필요성:<br>
   a. '사기': 사실을 오인시키는 등의 방법으로 남을 기망, 무단으로 경제적 이득을 얻거나 다른 사람으로 하여금 얻게 하는 행위. 도덕적으로 큰 죄 <br>
@@ -10,7 +10,10 @@
   e. 그렇기에, 본 프로젝트에서는 의료서비스 제공자의 보험금 청구가 '잠재적으로' 사기 행위일지 예측하고 상기 경제적 손실 방지를 도모하고자 함<br>
   f. 경제적 손실 방지 뿐만 아니라 적법한 방식으로 불특정 다수가 필요할 때 이용할 수 있는 건강한 의료보험 체계 형성에 기여할 수 있음<br>
 
-# 문제 해결 접근 방식 설정
+## 진행 기간
+2022.07.22-07.28(5일)
+
+## 문제 해결 접근 방식 설정
 - 특정 청구 건이 사기인지 아닌지 (0/1) 이진 분류<br>
 - 해결하고자 하는 문제 정의에 적절한 타겟 선정: 'PotentialFraud' (Yes/No)<br>
 - 타겟을 잘 설명할 수 있을 만한 특성에 대한 가설 설정:<br>
@@ -21,12 +24,12 @@
 
 상기 특성들이 보험 청구건이 사기로 예측될 확률에 영향을 줄 것이다.<br>
 
-# [데이터 전처리, EDA, 인코딩 & 시각화](https://github.com/aurorave/Insurance_claim-Fraud-Project/blob/main/02.%20AI_14_%EB%B0%95%EC%84%B1%ED%9D%AC(Colab_1%20of%202).ipynb)
+## [데이터 전처리, EDA, 인코딩 & 시각화](https://github.com/aurorave/Insurance_claim-Fraud-Project/blob/main/02.%20AI_14_%EB%B0%95%EC%84%B1%ED%9D%AC(Colab_1%20of%202).ipynb)
 - 머신러닝에 적합한 형태로 데이터타입 변경
 - 특성의 분포 확인, 이상치 제거
 - 피처 상관 분석, 시각화
 
-# [모델링 및 모델해석](https://github.com/aurorave/Insurance_claim-Fraud-Project/blob/main/02.%20AI_14_%EB%B0%95%EC%84%B1%ED%9D%AC(Colab_2%20of%202).ipynb)
+## [모델링 및 모델해석](https://github.com/aurorave/Insurance_claim-Fraud-Project/blob/main/02.%20AI_14_%EB%B0%95%EC%84%B1%ED%9D%AC(Colab_2%20of%202).ipynb)
 - 타겟 클래스 불균형 보정 (SMOTE)
 - 기준모델baseline model 선정, 모델링 성능 평가
 - 문제 정의에 맞는 평가지표 선택, 모델 성능 설명
